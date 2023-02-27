@@ -1,4 +1,4 @@
-import 'package:flutter_application/data/dto/dto.dart';
+import 'package:audio_background/data/dto/dto.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 part 'auth_state.freezed.dart';
 

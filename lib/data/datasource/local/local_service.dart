@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:flutter_application/data/dto/authentication_dto.dart';
+import 'package:audio_background/data/dto/authentication_dto.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

@@ -1,7 +1,7 @@
 import 'package:auth_nav/auth_nav.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application/ui/blocs/blocs.dart';
-import 'package:flutter_application/ui/pages/pages.dart';
+import 'package:audio_background/ui/blocs/blocs.dart';
+import 'package:audio_background/ui/pages/pages.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get_it/get_it.dart';
 

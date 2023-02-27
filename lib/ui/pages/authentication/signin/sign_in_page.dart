@@ -1,4 +1,6 @@
+import 'package:audio_background/ui/blocs/auth/auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../generated/l10n.dart';
 
@@ -14,7 +16,12 @@ class _SignInPageState extends State<SignInPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(S.current.sign_in),
+        child: ElevatedButton(
+          child: Text(S.current.sign_in),
+          onPressed: () {
+            context.read<AuthBloc>().login("username", "password");
+          },
+        ),
       ),
     );
   }

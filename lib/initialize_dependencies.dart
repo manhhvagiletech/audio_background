@@ -1,6 +1,6 @@
 import 'package:auth_nav/auth_nav.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_application/ui/blocs/blocs.dart';
+import 'package:audio_background/ui/blocs/blocs.dart';
 import 'package:get_it/get_it.dart';
 import 'package:oauth2_dio/oauth2_dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';

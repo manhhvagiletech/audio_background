@@ -1,6 +1,6 @@
-# flutter_application
+# audio_background
 
-This template base on Flutter 2.10.3
+This template base on Flutter 3.7.3
 
 ## Structure
 - assets

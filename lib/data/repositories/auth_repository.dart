@@ -1,5 +1,5 @@
-import 'package:flutter_application/data/datasource/datasource.dart';
-import 'package:flutter_application/data/dto/dto.dart';
+import 'package:audio_background/data/datasource/datasource.dart';
+import 'package:audio_background/data/dto/dto.dart';
 
 class AuthRepository {
   AuthApiService authApiService = AuthApiService();

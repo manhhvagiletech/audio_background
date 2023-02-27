@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/utils/navigator_support.dart';
+import 'package:audio_background/utils/navigator_support.dart';
 
 import '../pages.dart';
 
