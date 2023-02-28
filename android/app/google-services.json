@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "970075685133",
+    "project_id": "audio-background-7282e",
+    "storage_bucket": "audio-background-7282e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970075685133:android:7907f527cf21198931b044",
+        "android_client_info": {
+          "package_name": "com.mobile.audio_background"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970075685133-u8jipe77bimincppg5pr48u00f5d155g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO5lBX3nIliQGVm_QPpd3QCPN-YJjccKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970075685133-u8jipe77bimincppg5pr48u00f5d155g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "970075685133-16oms589o0agkca528qqdmh00757m1tb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mobile.audioBackground"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970075685133:android:883124517c5c597d31b044",
+        "android_client_info": {
+          "package_name": "com.mobile.audio_background.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970075685133-u8jipe77bimincppg5pr48u00f5d155g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO5lBX3nIliQGVm_QPpd3QCPN-YJjccKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970075685133-u8jipe77bimincppg5pr48u00f5d155g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "970075685133-16oms589o0agkca528qqdmh00757m1tb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mobile.audioBackground"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
