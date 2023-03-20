@@ -1,3 +1,4 @@
+import 'package:audio_background/ui/pages/main/audio/audio_page.dart';
 import 'package:flutter/material.dart';
 import 'package:audio_background/utils/navigator_support.dart';
 
@@ -16,7 +17,12 @@ class _MainNavigatorState extends State<MainNavigator> {
     return NavigatorSupport(
       initialRoute: 'home',
       onGenerateRoute: (setting) {
-        return MaterialPageRoute(builder: (context) => const HomePage());
+        switch (setting.name) {
+          case 'home':
+            return MaterialPageRoute(builder: (context) => const HomePage());
+          case AudioPage.routeName:
+            return MaterialPageRoute(builder: (context) => const AudioPage());
+        }
       },
     );
   }

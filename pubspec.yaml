@@ -48,6 +48,9 @@ dependencies:
   firebase_core: ^2.7.0
   firebase_messaging: 14.2.5
   flutter_local_notifications: ^13.0.0
+  http: ^0.13.5
+  sqflite: ^2.2.5
+  flutter_downloader: ^1.10.2
 
 dev_dependencies:
   flutter_test:
@@ -72,3 +75,11 @@ flutter:
     - assets/icons/
 flutter_intl:
   enabled: true
+
+flutter_gen:
+  output: lib/gen/ # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+  # Optional
+  integrations:
+    flutter_svg: true
